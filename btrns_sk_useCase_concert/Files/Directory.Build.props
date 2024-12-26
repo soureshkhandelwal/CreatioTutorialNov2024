@@ -1,0 +1,13 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertPerformanceDetail/UsrConcertPerformanceDetail.cs" Condition="Exists('$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertPerformanceDetail/UsrConcertPerformanceDetail.cs')" />
+		<Compile Include="$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertPerformanceTypeLookup/UsrConcertPerformanceTypeLookup.cs" Condition="Exists('$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertPerformanceTypeLookup/UsrConcertPerformanceTypeLookup.cs')" />
+		<Compile Include="$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertTypeLookup/UsrConcertTypeLookup.cs" Condition="Exists('$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertTypeLookup/UsrConcertTypeLookup.cs')" />
+		<Compile Include="$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCase/UsrConcertUseCase.cs" Condition="Exists('$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCase/UsrConcertUseCase.cs')" />
+		<Compile Include="$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseFile/UsrConcertUseCaseFile.cs" Condition="Exists('$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseFile/UsrConcertUseCaseFile.cs')" />
+		<Compile Include="$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseFolder/UsrConcertUseCaseFolder.cs" Condition="Exists('$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseFolder/UsrConcertUseCaseFolder.cs')" />
+		<Compile Include="$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseInFolder/UsrConcertUseCaseInFolder.cs" Condition="Exists('$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseInFolder/UsrConcertUseCaseInFolder.cs')" />
+		<Compile Include="$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseInTag/UsrConcertUseCaseInTag.cs" Condition="Exists('$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseInTag/UsrConcertUseCaseInTag.cs')" />
+		<Compile Include="$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseTag/UsrConcertUseCaseTag.cs" Condition="Exists('$(PkgPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseTag/UsrConcertUseCaseTag.cs')" />
+	</ItemGroup>
+</Project>
