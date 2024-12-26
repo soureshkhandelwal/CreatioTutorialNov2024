@@ -59,7 +59,7 @@
                 Terrasoft.GlobalVariables["GlobalCurrentConcertId"] = currentConcertId;
                 
 console.log("Message published with ID:", currentConcertId);
-                console.log("GlobalVariables >>> ",Terrasoft.GlobalVariables);
+                console.log("GlobalVariables hotttttfixxxxxxxxxxx >>> ",Terrasoft.GlobalVariables);
 
 				this.loadSystemSettings();
 				this.calculateTotalPerformanceDuration();

@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "d0a0aeec-df99-d75d-ef70-28e46bcae5db",
+    "Name": "DeleteFromUsrConcertPerformanceTypeLookupMSSql",
+    "DBEngineType": 0,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1735152700000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}
