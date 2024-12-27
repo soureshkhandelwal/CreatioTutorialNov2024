@@ -326,8 +326,8 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Package References">
-		<Reference Include="Terrasoft.Configuration">
-			<HintPath>$(RelativePkgFolderPath)/../bin/Terrasoft.Configuration.dll</HintPath>
+		<Reference Include="CrtCore">
+			<HintPath>$(RelativePkgFolderPath)/CrtCore/$(StandalonePackageAssemblyPath)/CrtCore.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -376,13 +376,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCalendar">
-			<HintPath>$(RelativePkgFolderPath)/CrtCalendar/$(StandalonePackageAssemblyPath)/CrtCalendar.dll</HintPath>
+		<Reference Include="CrtEmailTemplate">
+			<HintPath>$(RelativePkgFolderPath)/CrtEmailTemplate/$(StandalonePackageAssemblyPath)/CrtEmailTemplate.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtEmailTemplate">
-			<HintPath>$(RelativePkgFolderPath)/CrtEmailTemplate/$(StandalonePackageAssemblyPath)/CrtEmailTemplate.dll</HintPath>
+		<Reference Include="CrtCalendar">
+			<HintPath>$(RelativePkgFolderPath)/CrtCalendar/$(StandalonePackageAssemblyPath)/CrtCalendar.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -486,11 +486,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCore">
-			<HintPath>$(RelativePkgFolderPath)/CrtCore/$(StandalonePackageAssemblyPath)/CrtCore.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtProductivityCopilot">
 			<HintPath>$(RelativePkgFolderPath)/CrtProductivityCopilot/$(StandalonePackageAssemblyPath)/CrtProductivityCopilot.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -549,15 +544,9 @@
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
-		<Compile Remove="$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertPerformanceDetail/UsrConcertPerformanceDetail.cs" Condition="Exists('$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertPerformanceDetail/UsrConcertPerformanceDetail.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertPerformanceTypeLookup/UsrConcertPerformanceTypeLookup.cs" Condition="Exists('$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertPerformanceTypeLookup/UsrConcertPerformanceTypeLookup.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertTypeLookup/UsrConcertTypeLookup.cs" Condition="Exists('$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertTypeLookup/UsrConcertTypeLookup.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCase/UsrConcertUseCase.cs" Condition="Exists('$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCase/UsrConcertUseCase.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseFile/UsrConcertUseCaseFile.cs" Condition="Exists('$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseFile/UsrConcertUseCaseFile.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseFolder/UsrConcertUseCaseFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseFolder/UsrConcertUseCaseFolder.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseInFolder/UsrConcertUseCaseInFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseInFolder/UsrConcertUseCaseInFolder.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseInTag/UsrConcertUseCaseInTag.cs" Condition="Exists('$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseInTag/UsrConcertUseCaseInTag.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseTag/UsrConcertUseCaseTag.cs" Condition="Exists('$(RelativePkgFolderPath)/btrns_sk_useCase_concert/Schemas/UsrConcertUseCaseTag/UsrConcertUseCaseTag.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrRealty/Schemas/UsrRealty/UsrRealty.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealty/Schemas/UsrRealty/UsrRealty.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrRealty/Schemas/UsrRealtyOfferType/UsrRealtyOfferType.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealty/Schemas/UsrRealtyOfferType/UsrRealtyOfferType.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrRealty/Schemas/UsrRealtyType/UsrRealtyType.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealty/Schemas/UsrRealtyType/UsrRealtyType.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
