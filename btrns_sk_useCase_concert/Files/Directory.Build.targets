@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/btrns_sk_useCase_concert/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/btrns_sk_useCase_concert/Data/**" />
+		<Compile Remove="$(PkgPath)/btrns_sk_useCase_concert/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/btrns_sk_useCase_concert/Schemas\**" />
+		<Compile Remove="$(PkgPath)/btrns_sk_useCase_concert/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/btrns_sk_useCase_concert/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/btrns_sk_useCase_concert/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/btrns_sk_useCase_concert/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/btrns_sk_useCase_concert/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/btrns_sk_useCase_concert/Resources/**" />
+		<None Remove="$(PkgPath)/btrns_sk_useCase_concert/Assemblies/**" />
+		<None Remove="$(PkgPath)/btrns_sk_useCase_concert/Data/**" />
+		<None Remove="$(PkgPath)/btrns_sk_useCase_concert/SqlScripts/**" />
+		<None Remove="$(PkgPath)/btrns_sk_useCase_concert/Schemas/**" />
+		<None Remove="$(PkgPath)/btrns_sk_useCase_concert/Resources/**" />
+  </ItemGroup>
+</Project>
