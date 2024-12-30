@@ -6,6 +6,24 @@
 			<Item Name="LocalizableStrings.addRecord_fag8sy4_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_m9jqj1m_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_pdnb51d_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.AreaWarningMsg.Value" Value="Area can't be less than 50 sq ft" />
+			<Item Name="LocalizableStrings.Button_3cy5w0h_caption.Value" Value="Push me" />
+			<Item Name="LocalizableStrings.CommissionPercent_label.Value" Value="Comm. Percent" />
+			<Item Name="LocalizableStrings.ExpansionPanel_jawf8lu_title.Value" Value="Realty Visit" />
+			<Item Name="LocalizableStrings.FutureDateWarningMsg.Value" Value="Promotion Date can't be today or date in past." />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_2xuzi0q_caption.Value" Value="Add Visit Record (+)" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_wghvtvo_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_c9u1z7h_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_1ev130i_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_m95hkl5_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_t3f448k_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.Input_thfhz4a_label.Value" Value="Text" />
+			<Item Name="LocalizableStrings.Label_f5qtdqm_caption.Value" Value="Label" />
+			<Item Name="LocalizableStrings.PriceINR_label.Value" Value="asdsd" />
+			<Item Name="LocalizableStrings.PriceINR_placeholder.Value" Value="sasa" />
+			<Item Name="LocalizableStrings.PriceINR_tooltip.Value" Value="1 sq ft = INR 5,000" />
+			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Web Service" />
+			<Item Name="LocalizableStrings.WebServiceButton_caption.Value" Value="Web Service" />
 		</Items>
 	</Group>
 </Resources>

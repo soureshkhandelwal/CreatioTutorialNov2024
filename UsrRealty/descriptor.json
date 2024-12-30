@@ -12,6 +12,11 @@
         "PackageVersion": "7.8.0",
         "Name": "CrtCore",
         "Type": 1
+      },
+      {
+        "UId": "bafd75ae-0313-3f28-5cbf-58808c2bab1b",
+        "Name": "btrns_sk_useCase_concert",
+        "Type": 1
       }
     ]
   }
