@@ -83,7 +83,15 @@
     "FB2": "d7c295d3-3146-4ee1-ac49-3a7bd0edc45d"
   }
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","031d389b-ecf1-b247-38fe-8a95c1f63207","f1720c45-f1ee-159d-f939-c50e15338c27","efb1392f-70c0-936a-005b-2e335d46664e","2dbdf59c-2803-80e3-2e7a-03e1b2e6266a","bf07d523-9dcf-a526-3e45-5dc28dbb2bf3"]
++ MetaData.Schema.D2 {
+  "UId": "da7c6de4-9508-fccd-8855-ed578e30b434",
+  "A2": "UsrRealtyVisitDetailNumber",
+  "A3": "5c257747-3c69-40a9-acb1-96791955dc24",
+  "A4": "5c257747-3c69-40a9-acb1-96791955dc24",
+  "A5": "8236c6f2-4248-4d1f-a6a1-fa3238d626dd",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","031d389b-ecf1-b247-38fe-8a95c1f63207","f1720c45-f1ee-159d-f939-c50e15338c27","efb1392f-70c0-936a-005b-2e335d46664e","2dbdf59c-2803-80e3-2e7a-03e1b2e6266a","bf07d523-9dcf-a526-3e45-5dc28dbb2bf3","da7c6de4-9508-fccd-8855-ed578e30b434"]
 = MetaData.Schema.D20.A2 "UsrRealtyVisitEvents"
 = MetaData.Schema.D36.A3 "5c257747-3c69-40a9-acb1-96791955dc24"
 = MetaData.Schema.D36.BS1 false

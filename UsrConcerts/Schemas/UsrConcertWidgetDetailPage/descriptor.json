@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "acfea64a-4f10-4c27-bc33-caaa4cf265c4",
+    "Name": "UsrConcertWidgetDetailPage",
+    "ModifiedOnUtc": "\/Date(1736769237000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Concert Widget Detail Page"
+  }
+}

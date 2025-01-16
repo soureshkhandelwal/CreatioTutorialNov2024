@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "9e16dae9-e6de-4e1a-8c10-a30f19bb2b42",
+    "Name": "UsrPerformanceDetailRelatedPage",
+    "ModifiedOnUtc": "\/Date(1735703295000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Performance Detail (Page settings)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "646b94e1-813b-2846-a80d-d87b21c9ff43",
+    "Name": "FetchContactOfEmployeeTypeMSSql",
+    "DBEngineType": 0,
+    "InstallType": 2,
+    "ModifiedOnUtc": "\/Date(1735669944000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

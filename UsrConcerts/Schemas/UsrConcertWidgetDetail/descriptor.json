@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "bc0aac3d-dd57-4874-9eb2-e9dd89767551",
+    "Name": "UsrConcertWidgetDetail",
+    "ModifiedOnUtc": "\/Date(1736769261000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Concert Widget"
+  }
+}

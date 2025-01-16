@@ -8,6 +8,8 @@
 			<Item Name="LocalizableStrings.addRecord_pdnb51d_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.AreaWarningMsg.Value" Value="Area can't be less than 50 sq ft" />
 			<Item Name="LocalizableStrings.Button_3cy5w0h_caption.Value" Value="Push me" />
+			<Item Name="LocalizableStrings.Button_tc7774e_caption.Value" Value="Action" />
+			<Item Name="LocalizableStrings.CalculateAvgPriceBtn_caption.Value" Value="Calculate Avg Price" />
 			<Item Name="LocalizableStrings.CommissionPercent_label.Value" Value="Comm. Percent" />
 			<Item Name="LocalizableStrings.ExpansionPanel_jawf8lu_title.Value" Value="Realty Visit" />
 			<Item Name="LocalizableStrings.FutureDateWarningMsg.Value" Value="Promotion Date can't be today or date in past." />
@@ -19,6 +21,7 @@
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_t3f448k_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.Input_thfhz4a_label.Value" Value="Text" />
 			<Item Name="LocalizableStrings.Label_f5qtdqm_caption.Value" Value="Label" />
+			<Item Name="LocalizableStrings.MenuItem_jq8c0lq_caption.Value" Value="Calculate Avg Price" />
 			<Item Name="LocalizableStrings.PriceINR_label.Value" Value="asdsd" />
 			<Item Name="LocalizableStrings.PriceINR_placeholder.Value" Value="sasa" />
 			<Item Name="LocalizableStrings.PriceINR_tooltip.Value" Value="1 sq ft = INR 5,000" />

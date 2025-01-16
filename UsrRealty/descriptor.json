@@ -3,7 +3,7 @@
     "UId": "00a52508-3414-4cde-8fa3-b38dd95ae17b",
     "Name": "UsrRealty",
     "Type": 1,
-    "ModifiedOnUtc": "\/Date(1632313759000)\/",
+    "ModifiedOnUtc": "\/Date(1735566465000)\/",
     "Maintainer": "Customer",
     "ProjectPath": "Files/UsrRealty.csproj",
     "DependsOn": [
@@ -14,8 +14,9 @@
         "Type": 1
       },
       {
-        "UId": "bafd75ae-0313-3f28-5cbf-58808c2bab1b",
-        "Name": "btrns_sk_useCase_concert",
+        "UId": "2ecba2bd-b810-47a5-a1b1-08c888529d6c",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCustomer360App",
         "Type": 1
       }
     ]

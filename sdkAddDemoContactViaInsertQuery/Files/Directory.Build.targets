@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Data/**" />
+		<Compile Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Schemas\**" />
+		<Compile Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Resources/**" />
+		<None Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Assemblies/**" />
+		<None Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Data/**" />
+		<None Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/SqlScripts/**" />
+		<None Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Schemas/**" />
+		<None Remove="$(PkgPath)/sdkAddDemoContactViaInsertQuery/Resources/**" />
+  </ItemGroup>
+</Project>

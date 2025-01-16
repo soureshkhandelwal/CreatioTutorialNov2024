@@ -94,6 +94,46 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
+				"name": "Action",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_tc7774e_caption)#",
+					"color": "warn",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "only-text",
+					"visible": true,
+					"icon": null,
+					"menuItems": [],
+					"clickMode": "menu"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "CalculateAvgPriceMenuBtn",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(CalculateAvgPriceBtn_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrCalculateAvgRealtyPriceProcess",
+							"processRunType": "ForTheSelectedPage",
+							"showNotification": true,
+							"recordIdProcessParameterName": "RealtyCurrentRecordIdParam"
+						}
+					}
+				},
+				"parentName": "Action",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "WebServiceButton",
 				"values": {
 					"type": "crt.Button",
@@ -111,7 +151,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -650,7 +690,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						},
 						"editable": {
 							"enable": true,
-							"itemsCreation": false,
+							"itemsCreation": true,
 							"floatingEditPanel": true
 						}
 					},
@@ -1021,46 +1061,56 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			}
 		]/**SCHEMA_MODEL_CONFIG_DIFF*/,
 		handlers: /**SCHEMA_HANDLERS*/[
-          {
-            request: "usr.WebServiceButtonAction",
-            // Custom Hanlder Code
-            handler: async (request, next) =>{
-              console.log("Button is wokringgggg.........");
-              // Terrasoft.showInformation("You Clicked 'Push me' Button.");
+			{
+				request: "usr.WebServiceButtonAction",
+				// Custom Hanlder Code
+				handler: async (request, next) =>{
+					console.log("PushMe Button is wokring.");
+					// Terrasoft.showInformation("You Clicked 'Push me' Button.");
 
-              let price = await request.$context.PDS_UsrPriceINR_cw3n5rc;
-              console.log("Price = ", price);
+					let price = await request.$context.PDS_UsrPriceINR_cw3n5rc;
+					console.log("Price = ", price);
 
-              request.$context.PDS_UsrComment_rwqz1ib = `You set the price ${price}`;
+					request.$context.PDS_UsrComment_rwqz1ib = `You set the price ${price}`;
 
-              return next?.handle(request);
-            }
-          },
+					// How to get Localizable String as Variable:
+					let getLocalizableStringVal = await request.$context.Resources.Strings.AreaWarningMsg;
+					console.log("Localizable String >>>", getLocalizableStringVal);
+
+					return next?.handle(request);
+				}
+			},
           
-          {
+        	{
                 request: "crt.HandleViewModelAttributeChangeRequest",
                 handler: async (request, next) => {
-                    console.log("attributeName >>> ",request.attributeName);
+                    console.log("attributeName >>> ",await request.attributeName);
 
                     // --------------- Show/Hide Price based on Area ---------------
-                    if (request.attributeName === 'PDS_UsrArea_ix93g4z') {
+                    if ( request.attributeName === 'PDS_UsrArea_ix93g4z' ) {
                         let area = await request.$context.PDS_UsrArea_ix93g4z;
                         console.log("area", area);
+
+                        request.$context.IsPriceFieldReadOnly = false;
 
                         if( area == "" || area == null || area == undefined ){
                             request.$context.PDS_UsrPriceINR_cw3n5rc = 0;
                             request.$context.IsPriceFieldAvailable = false;
                         } else{
-                            request.$context.PDS_UsrPriceINR_cw3n5rc = (5000 * area);
+                            // request.$context.PDS_UsrPriceINR_cw3n5rc = (5000 * area);
+                            // request.$context.IsPriceFieldReadOnly = true;
                             request.$context.IsPriceFieldAvailable = true;
-                            request.$context.IsPriceFieldReadOnly = true;
                         }
                     }
 
                     // ------------------------------ Calculating Commission ------------------------------
-                    if (request.attributeName === 'PDS_UsrOfferTypeUsrCommissionPercent') {
+                    if (request.attributeName === 'PDS_UsrOfferTypeUsrCommissionPercent' || request.attributeName === 'PDS_UsrPriceINR_cw3n5rc') {
                         let CommissionPercent = await request.$context.PDS_UsrOfferTypeUsrCommissionPercent || 0;
-                         let price = await request.$context.PDS_UsrPriceINR_cw3n5rc;
+                         let price = await request.$context.PDS_UsrPriceINR_cw3n5rc || 0;
+
+                        console.log("Type lookup Obj", await request.$context.PDS_UsrType_ycizc1v);
+                        console.log("Offer Lookup Obj", await request.$context.PDS_UsrOfferType_a2mletp);
+                        console.log("Price Val", await request.$context.PDS_UsrPriceINR_cw3n5rc);
                       
                         request.$context.PDS_UsrCommission_uxxm5lt = (price * CommissionPercent) / 100 ;
                     }

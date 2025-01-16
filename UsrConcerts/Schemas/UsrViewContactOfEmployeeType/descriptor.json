@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f429ebb6-1894-4b53-8c82-6d52dbdb7af0",
+    "Name": "UsrViewContactOfEmployeeType",
+    "ModifiedOnUtc": "\/Date(1735671005000)\/",
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Contact Of Employee Type (View)",
+    "DependsOn": []
+  }
+}

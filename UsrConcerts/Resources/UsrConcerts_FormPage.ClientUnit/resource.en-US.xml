@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Concerts form page" />
+			<Item Name="LocalizableStrings.addRecord_00pnigq_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_4sbavdp_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_aux18f2_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Button_n6ohpwe_caption.Value" Value="Web Service" />
+			<Item Name="LocalizableStrings.ConcertType_placeholder.Value" Value="Select Any Type" />
+			<Item Name="LocalizableStrings.ExpansionPanel_2fqimgc_title.Value" Value="Performace Detail" />
+			<Item Name="LocalizableStrings.ExpansionPanel_37ed3np_title.Value" Value="Performance Detail" />
+			<Item Name="LocalizableStrings.ExpansionPanel_cctbhof_title.Value" Value="Widgets" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_67q1wne_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_jmbbpo9_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_rhdh512_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_1dnzlpr_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_gb1grp0_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_i3zd25d_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_ajqadmk_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_o8k6qpe_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_vmnpxvp_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_5urecye_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_vkcftel_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_vy50fgt_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_0brk0fp_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_pc2r4rh_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_zw1mgtn_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_hhaurnj_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_ja1h3yi_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_quxbxha_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.RunWebService_caption.Value" Value="Web Service" />
+			<Item Name="LocalizableStrings.TabContainer_zjrgydu_caption.Value" Value="New tab" />
+		</Items>
+	</Group>
+</Resources>

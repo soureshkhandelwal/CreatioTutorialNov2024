@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Concerts" />
+			<Item Name="Columns.UsrActiveStatus.Caption" Value="Active" />
+			<Item Name="Columns.UsrConcertCode.Caption" Value="Code" />
+			<Item Name="Columns.UsrConcertMobileNumber.Caption" Value="Mobile No" />
+			<Item Name="Columns.UsrConcertNumber.Caption" Value="Random Number" />
+			<Item Name="Columns.UsrConcertTitle.Caption" Value="Title" />
+			<Item Name="Columns.UsrConcertType.Caption" Value="Type" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
+			<Item Name="Columns.UsrOwner.Caption" Value="Owner" />
+		</Items>
+	</Group>
+</Resources>

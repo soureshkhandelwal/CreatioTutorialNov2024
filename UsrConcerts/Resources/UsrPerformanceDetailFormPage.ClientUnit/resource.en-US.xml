@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Performance Detail Form Page" />
+			<Item Name="LocalizableStrings.addRecord_aelwaxk_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_b2ahzh5_caption.Value" Value="Add new" />
+		</Items>
+	</Group>
+</Resources>

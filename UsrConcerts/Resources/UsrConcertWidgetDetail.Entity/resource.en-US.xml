@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Concert Widget" />
+			<Item Name="Columns.UsrConcertWidgetName.Caption" Value="Widget Name" />
+			<Item Name="Columns.UsrConcertWidgetName.Description" Value="Name of the widget" />
+			<Item Name="Columns.UsrConcertWidgetStatus.Caption" Value="Widget Status" />
+			<Item Name="Columns.UsrParentConcert.Caption" Value="Parent Concert" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "3f80d8f6-53c0-4a38-ba63-a26c4dbd1ad5",
+    "Name": "UsrPerformanceDetail",
+    "ModifiedOnUtc": "\/Date(1735980238000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Performance Detail"
+  }
+}

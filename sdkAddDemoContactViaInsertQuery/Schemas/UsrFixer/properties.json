@@ -1,0 +1,7 @@
+﻿{
+  "Properties": {
+    "BaseUri": "http://data.fixer.io",
+    "CreatedInVersion": "8.2.0.4183",
+    "Type": "Rest"
+  }
+}

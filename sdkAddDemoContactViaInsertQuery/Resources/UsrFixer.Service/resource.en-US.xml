@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Currency exchange rates (Fixer)" />
+			<Item Name="Description" Value="Currency exchange rates" />
+			<Item Name="ServiceMethods.UsrConvertRates.Caption" Value="Convert Rates" />
+			<Item Name="ServiceMethods.UsrConvertRates.Request.Parameters.UsrAccesskey.Caption" Value="Access_key" />
+			<Item Name="ServiceMethods.UsrConvertRates.Request.Parameters.UsrAmount.Caption" Value="Amount" />
+			<Item Name="ServiceMethods.UsrConvertRates.Request.Parameters.UsrConvertFromCurrency.Caption" Value="From" />
+			<Item Name="ServiceMethods.UsrConvertRates.Request.Parameters.UsrConvertToCurrency.Caption" Value="To" />
+			<Item Name="ServiceMethods.UsrLatestRates.Caption" Value="Retrieve the Latest exchange rates" />
+			<Item Name="ServiceMethods.UsrLatestRates.Request.Parameters.UsrAccesskey.Caption" Value="Access_key" />
+			<Item Name="ServiceMethods.UsrLatestRates.Request.Parameters.UsrEndpoint.Caption" Value="Endpoint" />
+			<Item Name="ServiceMethods.UsrLatestRates.Response.Parameters.UsrBase.Caption" Value="Base" />
+			<Item Name="ServiceMethods.UsrLatestRates.Response.Parameters.UsrDate.Caption" Value="Date" />
+			<Item Name="ServiceMethods.UsrLatestRates.Response.Parameters.UsrEURRates.Caption" Value="Rates EUR" />
+			<Item Name="ServiceMethods.UsrLatestRates.Response.Parameters.UsrINRRates.Caption" Value="Rates INR" />
+			<Item Name="ServiceMethods.UsrLatestRates.Response.Parameters.UsrSuccess.Caption" Value="Success" />
+			<Item Name="ServiceMethods.UsrLatestRates.Response.Parameters.UsrTimestamp.Caption" Value="Timestamp" />
+			<Item Name="ServiceMethods.UsrLatestRates.Response.Parameters.UsrUSDRates.Caption" Value="Rates USD" />
+		</Items>
+	</Group>
+</Resources>

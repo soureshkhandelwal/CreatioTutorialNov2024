@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.aacf5a03-b49e-15cc-ed06-f8b3c60aa1ac.Caption" Value="Contact Of Employee Type" />
+			<Item Name="Caption" Value="Concerts (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

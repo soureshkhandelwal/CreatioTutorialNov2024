@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "88d76a06-d6c1-471c-8843-f3d8781c0e3b",
+    "Name": "UsrProcess_fdf4d4eUsrRealty2",
+    "ModifiedOnUtc": "\/Date(1735844297000)\/",
+    "Parent": {
+      "UId": "d828e8b6-d68f-4760-8d72-d45a575a9099",
+      "Name": "UsrProcess_fdf4d4e"
+    },
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Auto Adding Performance Detail Records."
+  }
+}
