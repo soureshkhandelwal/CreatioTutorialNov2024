@@ -189,7 +189,7 @@ define("Contacts_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
                   esq.addColumn("Account.Name", "AccountName");
                 
                   // esq.addColumn("Account.Country.Name", "CountryName");
-                  esq.addColumn("Account.[Country:Id:Country].Name", "CountryName");   //
+                  esq.addColumn("Account.[Country:Id:Country].Name", "CountryName"); 
                 
                   esq.addColumn("Owner.Name", "OwnerName");
 

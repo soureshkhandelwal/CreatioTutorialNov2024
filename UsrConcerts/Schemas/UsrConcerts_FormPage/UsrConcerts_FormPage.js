@@ -1180,8 +1180,8 @@ define("UsrConcerts_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHE
     
     					const response = await httpClientService.post(endpoint, params);
     					
-                        console.log(response.body);
-    					let totaConcertIdlRecords = response.body.GetPerformanceDetailResult;
+                        console.log(JSON.parse(response.body.GetPerformanceDetailResult));
+    					let totaConcertIdlRecords = JSON.parse(response.body.GetPerformanceDetailResult).length || 0;
                         	
                         Terrasoft.showInformation(`Concert: ${concertTitle} \n Total Performance: ${totaConcertIdlRecords}`);
 
@@ -1269,8 +1269,35 @@ define("UsrConcerts_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHE
                 handler: async (request, next) => {
                     console.log("checkRecordExistence >>", await request.$context.checkRecordExistence);
 
-                     return next?.handle(request);
+                  try {
+                    /* Create an instance of the HTTP client from @creatio-devkit/common. */
+                    const httpClientService = new sdk.HttpClientService();
+
+                    /* Specify the URL to run web service method. */
+                    const baseUrl = Terrasoft.utils.uri.getConfigurationWebServiceBaseUrl();
+                    const transferName = "rest";
+                    const serviceName = "UsrDemoInsertService";
+                    const methodName = "InsertDemo";
+                    const endpoint = Terrasoft.combinePath(baseUrl, transferName, serviceName, methodName);
+                    
+                    //const endpoint = "http://localhost/D1/0/rest/UsrDemoInsertService/InsertDemo";
+                    /* Send a POST HTTP request. The HTTP client converts the response body from JSON to a JS object automatically. */
+                    var params = {
+                        name: await request.$context.UsrName,
+                        timestamp: new Date().valueOf(),
+                        remarks: await request.$context.PDS_UsrNotes_x5q5km6,
+                    };
+
+                    const response = await httpClientService.post(endpoint, params);
+                    
+                    console.log("InsertDemoResult >>",response.body.InsertDemoResult);
+
+                     return next?.handle(request);   
+                } catch (error) {
+                    console.log(error);
+                    return null;
                 }
+            }     
           }
         ]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
