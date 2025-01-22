@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "fca5773e-b17d-47d6-abde-d47eccd0a014",
+    "Name": "UsrInterest",
+    "ModifiedOnUtc": "\/Date(1737550314000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Interest Detail",
+    "DependsOn": []
+  }
+}

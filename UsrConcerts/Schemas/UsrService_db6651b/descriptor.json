@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d75a2618-4625-4b93-969f-45fa9ed6b486",
+    "Name": "UsrService_db6651b",
+    "ModifiedOnUtc": "\/Date(1737429544000)\/",
+    "ManagerName": "ServiceSchemaManager",
+    "Caption": "Fake API",
+    "DependsOn": []
+  }
+}

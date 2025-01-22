@@ -19,6 +19,11 @@
         "PackageVersion": "7.8.0",
         "Name": "CrtCustomer360App",
         "Type": 1
+      },
+      {
+        "UId": "f61a7e1c-24b4-4365-aa97-2fdcd53e822c",
+        "Name": "UsrConcerts",
+        "Type": 1
       }
     ]
   }

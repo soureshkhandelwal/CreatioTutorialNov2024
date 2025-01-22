@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Fake API" />
+			<Item Name="Description" Value="Fake API" />
+			<Item Name="ServiceMethods.UsrCollectionPosts.Caption" Value="Collection Of Posts" />
+			<Item Name="ServiceMethods.UsrCollectionPosts.Response.Parameters.UsrPostCollection.Caption" Value="Posts Collection" />
+			<Item Name="ServiceMethods.UsrCollectionPosts.Response.Parameters.UsrPostCollection.ItemProperties.UsrId.Caption" Value="Id" />
+			<Item Name="ServiceMethods.UsrCollectionPosts.Response.Parameters.UsrPostCollection.ItemProperties.UsrPostBody.Caption" Value="Post Body" />
+			<Item Name="ServiceMethods.UsrCollectionPosts.Response.Parameters.UsrPostCollection.ItemProperties.UsrPostTitle.Caption" Value="Post Title" />
+			<Item Name="ServiceMethods.UsrCollectionPosts.Response.Parameters.UsrPostCollection.ItemProperties.UsrUserId.Caption" Value="User Id" />
+		</Items>
+	</Group>
+</Resources>

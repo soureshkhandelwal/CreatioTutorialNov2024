@@ -1,0 +1,168 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ServiceSchemaManager",
+      "UId": "a52f25da-84ea-4fbd-92ef-0c1d4449896e",
+      "A2": "UsrService_2392e23",
+      "A5": "6d0c237d-57b1-409b-9f16-ec1c0b4f0d63",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "f61a7e1c-24b4-4365-aa97-2fdcd53e822c",
+      "B8": "8.2.0.4183",
+      "IQ1": "http://data.fixer.io",
+      "IQ2": 1,
+      "IQ7": [],
+      "IQ4": [
+        {
+          "UId": "0e995ffd-e45b-4fb9-b3ca-2c18dc3c8f3f",
+          "A2": "UsrMethod1",
+          "A3": "a52f25da-84ea-4fbd-92ef-0c1d4449896e",
+          "A4": "a52f25da-84ea-4fbd-92ef-0c1d4449896e",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "70697d99-842f-4dec-bc11-d52c69f26843",
+                "A2": "UsrAccessKey",
+                "IU1": "access_key",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 3,
+                "IU5": {
+                  "IV1": "ff91a49b531fa61ee4cce7a1adbb3137",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "7d8d4a3e-ad47-4372-b3a1-771715ded04c",
+                "A2": "UsrEndpoint",
+                "IU1": "endpoint",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 2,
+                "IU5": {
+                  "IV1": "/api/latest",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 1,
+            "IT1": "/{endpoint}"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "b9692782-a955-4c88-b554-dc84a4c2300b",
+                "A2": "UsrSuccess",
+                "IU1": "$.success",
+                "IU2": "Boolean",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "93bde3e0-8b70-4e74-94ac-f6eb951e9a08",
+                "A2": "UsrTimestamp",
+                "IU1": "$.timestamp",
+                "IU2": "Integer",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "ef0cb099-ffe3-404b-812e-f44a57d7331c",
+                "A2": "UsrBase",
+                "IU1": "$.base",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "c09190e5-5ff6-450b-8154-2335912f458f",
+                "A2": "UsrDate",
+                "IU1": "$.date",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "1ab13037-fe1a-466d-989c-ae35af6b8f59",
+                "A2": "UsrRates",
+                "IU1": "$.rates.EUR",
+                "IU2": "Integer",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "4ebb425d-70b6-4cb5-b14c-34f454d6f2c0",
+                "A2": "UsrRates1",
+                "IU1": "$.rates.NZD",
+                "IU2": "Integer",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "78e9c460-1de0-4e54-98e8-9d58d5b91dff",
+                "A2": "UsrINR",
+                "IU1": "$.rates.INR",
+                "IU2": "Integer",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "e01d990d-354c-44a2-88df-cf0ba9c39f50",
+                "A2": "UsrUSD",
+                "IU1": "$.rates.USD",
+                "IU2": "Integer",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "4399fb9e-6a54-4fef-b4f6-181a94cddfa4",
+    "Name": "UsrtFetchLatestExhangeRates",
+    "ModifiedOnUtc": "\/Date(1737400219000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Get Current Latest Exhange Rates",
+    "DependsOn": []
+  }
+}

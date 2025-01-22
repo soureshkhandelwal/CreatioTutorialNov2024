@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "419a5cb1-999d-4314-824e-98b4818e04cf",
+    "Name": "UsrProcess_14eabe0",
+    "ModifiedOnUtc": "\/Date(1737484540000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Call Fake API Service",
+    "DependsOn": []
+  }
+}

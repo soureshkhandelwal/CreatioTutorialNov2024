@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "f666215e-7b81-49b0-8d01-b032ddc843da",
+    "Name": "UsrPage_8gsusop",
+    "ModifiedOnUtc": "\/Date(1737395873000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "New modal page"
+  }
+}

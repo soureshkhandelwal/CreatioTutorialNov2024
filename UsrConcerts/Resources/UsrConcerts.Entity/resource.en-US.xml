@@ -9,6 +9,8 @@
 			<Item Name="Columns.UsrConcertNumber.Caption" Value="Random Number" />
 			<Item Name="Columns.UsrConcertTitle.Caption" Value="Title" />
 			<Item Name="Columns.UsrConcertType.Caption" Value="Type" />
+			<Item Name="Columns.UsrCustomNumberViaEvents.Caption" Value="Application Number (Event)" />
+			<Item Name="Columns.UsrCustomNumberViaEvents.Description" Value="It will be generated after inserting new record" />
 			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
 			<Item Name="Columns.UsrOwner.Caption" Value="Owner" />
 		</Items>

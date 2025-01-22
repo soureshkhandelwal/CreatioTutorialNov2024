@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "15410b82-16d0-442c-a93d-c9181a2d47e8",
+    "Name": "UsrInterestRelatedPage",
+    "ModifiedOnUtc": "\/Date(1737481521000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Interest Detail (Page settings)",
+    "DependsOn": []
+  }
+}

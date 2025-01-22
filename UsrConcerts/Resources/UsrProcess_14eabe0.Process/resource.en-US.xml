@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.WebService1.Caption" Value="Call Fake API" />
+			<Item Name="BaseElements.WebService1.Parameters.RequestBody.Caption" Value="Request body" />
+			<Item Name="BaseElements.WebService1.Parameters.Response.Caption" Value="Response body" />
+			<Item Name="BaseElements.WebService1.Parameters.StatusCode.Caption" Value="Http status code" />
+			<Item Name="BaseElements.WebService1.Parameters.Success.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrPostCollection_Out.Caption" Value="Posts Collection" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrPostCollection_Out.UsrId_Out.Caption" Value="Id" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrPostCollection_Out.UsrPostBody_Out.Caption" Value="Post Body" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrPostCollection_Out.UsrPostTitle_Out.Caption" Value="Post Title" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrPostCollection_Out.UsrUserId_Out.Caption" Value="User Id" />
+			<Item Name="Caption" Value="Call Fake API Service" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.UsrPosts.Caption" Value="posts" />
+		</Items>
+	</Group>
+</Resources>

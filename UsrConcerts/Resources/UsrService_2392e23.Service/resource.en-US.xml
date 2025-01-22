@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Fixer Current Rates" />
+			<Item Name="Description" Value="Fixer Current Rates" />
+			<Item Name="ServiceMethods.UsrMethod1.Caption" Value="Latest Current Xchange Rates" />
+			<Item Name="ServiceMethods.UsrMethod1.Request.Parameters.UsrAccessKey.Caption" Value="Access Key" />
+			<Item Name="ServiceMethods.UsrMethod1.Request.Parameters.UsrEndpoint.Caption" Value="Endpoint" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrBase.Caption" Value="Base" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrDate.Caption" Value="Date" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrINR.Caption" Value="Rates INR" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrRates.Caption" Value="Rates EUR" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrRates1.Caption" Value="Rates NZD" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrSuccess.Caption" Value="Success" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrTimestamp.Caption" Value="Timestamp" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrUSD.Caption" Value="Rates USD" />
+		</Items>
+	</Group>
+</Resources>

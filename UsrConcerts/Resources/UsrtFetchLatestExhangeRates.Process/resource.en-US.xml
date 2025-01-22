@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.WebService1.Caption" Value="Fixer Current Rates" />
+			<Item Name="BaseElements.WebService1.Parameters.RequestBody.Caption" Value="Request body" />
+			<Item Name="BaseElements.WebService1.Parameters.Response.Caption" Value="Response body" />
+			<Item Name="BaseElements.WebService1.Parameters.StatusCode.Caption" Value="Http status code" />
+			<Item Name="BaseElements.WebService1.Parameters.Success.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrAccessKey_In.Caption" Value="Access Key" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrAccessKey_In.DisplayValue" Value="ff91a49b531fa61ee4cce7a1adbb3137" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrAccessKey_In.Value" Value="ff91a49b531fa61ee4cce7a1adbb3137" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrBase_Out.Caption" Value="Base" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrDate_Out.Caption" Value="Date" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrEndpoint_In.Caption" Value="Endpoint" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrEndpoint_In.DisplayValue" Value="/api/latest" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrEndpoint_In.Value" Value="/api/latest" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrINR_Out.Caption" Value="Rates INR" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrRates_Out.Caption" Value="Rates EUR" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrRates1_Out.Caption" Value="Rates NZD" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrTimestamp_Out.Caption" Value="Timestamp" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrUSD_Out.Caption" Value="Rates USD" />
+			<Item Name="Caption" Value="Get Current Latest Exhange Rates" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.UsrAllRatesResponse.Caption" Value="AllRatesResponse" />
+		</Items>
+	</Group>
+</Resources>

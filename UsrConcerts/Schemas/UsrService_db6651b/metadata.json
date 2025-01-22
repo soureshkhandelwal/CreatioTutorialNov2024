@@ -1,0 +1,109 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ServiceSchemaManager",
+      "UId": "d75a2618-4625-4b93-969f-45fa9ed6b486",
+      "A2": "UsrService_db6651b",
+      "A5": "6d0c237d-57b1-409b-9f16-ec1c0b4f0d63",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "f61a7e1c-24b4-4365-aa97-2fdcd53e822c",
+      "B8": "8.2.0.4183",
+      "IQ1": "https://jsonplaceholder.typicode.com",
+      "IQ2": 1,
+      "IQ7": [],
+      "IQ4": [
+        {
+          "UId": "4cea4e0e-769b-4be7-8fb7-2cd56734c397",
+          "A2": "UsrCollectionPosts",
+          "A3": "d75a2618-4625-4b93-969f-45fa9ed6b486",
+          "A4": "d75a2618-4625-4b93-969f-45fa9ed6b486",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [],
+            "IT2": 1,
+            "IT1": "/posts"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "fad091a8-9c57-4639-9cbf-20a60e3b2aec",
+                "A2": "UsrPostCollection",
+                "IU1": "$",
+                "IU2": "Object",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": [
+                  {
+                    "UId": "6a6a0cf1-580c-4c4c-893c-cabfd813d4b6",
+                    "A2": "UsrUserId",
+                    "IU1": "userId",
+                    "IU2": "Integer",
+                    "IU7": true,
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null",
+                      "IV2": 1
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "303ddc46-67cd-439d-8a30-66187576c911",
+                    "A2": "UsrId",
+                    "IU1": "id",
+                    "IU2": "Integer",
+                    "IU7": true,
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null",
+                      "IV2": 1
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "7277f39b-2ada-46d9-84c4-ce4771b073a3",
+                    "A2": "UsrPostTitle",
+                    "IU1": "title",
+                    "IU2": "Text",
+                    "IU7": true,
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null",
+                      "IV2": 1
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "9e90f5f0-a3d7-4c67-a35e-e2928430bdb4",
+                    "A2": "UsrPostBody",
+                    "IU1": "body",
+                    "IU2": "Text",
+                    "IU7": true,
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null",
+                      "IV2": 1
+                    },
+                    "IU6": []
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

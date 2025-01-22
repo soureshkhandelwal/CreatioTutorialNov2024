@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Concert Code Validation" />
+			<Item Name="Description" Value="Validating Code from Server Side" />
+			<Item Name="LocalizableStrings.ValueIsTooBig.Value" Value="Code more than {0} are not allowed." />
+		</Items>
+	</Group>
+</Resources>

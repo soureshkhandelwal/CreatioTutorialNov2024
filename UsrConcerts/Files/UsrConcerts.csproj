@@ -421,11 +421,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCopilotIntentsStudio">
-			<HintPath>$(RelativePkgFolderPath)/CrtCopilotIntentsStudio/$(StandalonePackageAssemblyPath)/CrtCopilotIntentsStudio.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtMobileFreedomUIStylesFor7x">
 			<HintPath>$(RelativePkgFolderPath)/CrtMobileFreedomUIStylesFor7x/$(StandalonePackageAssemblyPath)/CrtMobileFreedomUIStylesFor7x.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -433,6 +428,11 @@
 		</Reference>
 		<Reference Include="CrtWebFormBase">
 			<HintPath>$(RelativePkgFolderPath)/CrtWebFormBase/$(StandalonePackageAssemblyPath)/CrtWebFormBase.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtCopilotIntentsStudio">
+			<HintPath>$(RelativePkgFolderPath)/CrtCopilotIntentsStudio/$(StandalonePackageAssemblyPath)/CrtCopilotIntentsStudio.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -456,6 +456,11 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="CrtStudioCopilot">
+			<HintPath>$(RelativePkgFolderPath)/CrtStudioCopilot/$(StandalonePackageAssemblyPath)/CrtStudioCopilot.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="Finesse">
 			<HintPath>$(RelativePkgFolderPath)/Finesse/$(StandalonePackageAssemblyPath)/Finesse.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -463,11 +468,6 @@
 		</Reference>
 		<Reference Include="CrtOmnichannelApp">
 			<HintPath>$(RelativePkgFolderPath)/CrtOmnichannelApp/$(StandalonePackageAssemblyPath)/CrtOmnichannelApp.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtStudioCopilot">
-			<HintPath>$(RelativePkgFolderPath)/CrtStudioCopilot/$(StandalonePackageAssemblyPath)/CrtStudioCopilot.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -547,6 +547,8 @@
 		<Compile Remove="$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrConcerts/UsrConcerts.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrConcerts/UsrConcerts.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrConcertTypeLookup/UsrConcertTypeLookup.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrConcertTypeLookup/UsrConcertTypeLookup.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrConcertWidgetDetail/UsrConcertWidgetDetail.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrConcertWidgetDetail/UsrConcertWidgetDetail.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrInterest/UsrInterest.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrInterest/UsrInterest.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrInterestTypeLookup/UsrInterestTypeLookup.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrInterestTypeLookup/UsrInterestTypeLookup.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrPerformanceDetail/UsrPerformanceDetail.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrPerformanceDetail/UsrPerformanceDetail.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrPerformanceTypeLookup/UsrPerformanceTypeLookup.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrPerformanceTypeLookup/UsrPerformanceTypeLookup.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrViewContactOfEmployeeType/UsrViewContactOfEmployeeType.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrConcerts/Schemas/UsrViewContactOfEmployeeType/UsrViewContactOfEmployeeType.cs')" />

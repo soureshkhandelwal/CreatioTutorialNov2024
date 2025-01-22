@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Interest Detail" />
+			<Item Name="Columns.UsrInterestAmount.Caption" Value="Total Interest Amt" />
+			<Item Name="Columns.UsrInterestType.Caption" Value="Interest Type" />
+			<Item Name="Columns.UsrParentConcert.Caption" Value="Parent Concert" />
+			<Item Name="Columns.UsrPrincipalAmt.Caption" Value="Principal Amount" />
+			<Item Name="Columns.UsrRateInPercent.Caption" Value="Rate (%)" />
+			<Item Name="Columns.UsrTenure.Caption" Value="Tenure (in Years)" />
+			<Item Name="Columns.UsrTotalAmount.Caption" Value="Amount After Interest" />
+		</Items>
+	</Group>
+</Resources>

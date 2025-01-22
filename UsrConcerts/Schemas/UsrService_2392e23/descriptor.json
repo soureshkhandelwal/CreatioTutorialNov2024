@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a52f25da-84ea-4fbd-92ef-0c1d4449896e",
+    "Name": "UsrService_2392e23",
+    "ModifiedOnUtc": "\/Date(1737428857000)\/",
+    "ManagerName": "ServiceSchemaManager",
+    "Caption": "Fixer Current Rates",
+    "DependsOn": []
+  }
+}

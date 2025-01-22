@@ -158,17 +158,36 @@ define("UsrPerformanceDetailFormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"
               // Listen for concert record loading and calculate total performance duration
               request: "crt.HandleViewModelInitRequest",
               handler: async (request, next) => {
-                  /* Wait for the rest of the initialization handlers to finish. */
-                  await next?.handle(request);
+                  // await next?.handle(request);
                   console.log("Handling concert form page load...");
    
                   setTimeout(async () => {
                       
-                      console.log("Performance Id after delay 2:", await request.$context.Id);
-                      console.log("Concert Id after delay 7:", await request.$context.attributes.UsrPerformanceDetailDS_UsrParentConcert_m2nxgfl.value);
-                      console.log("Concert Id after delay 8:", await request.$context.attributes.UsrPerformanceDetailDS_UsrParentConcert_m2nxgfl.displayValue);
+                      let ConcertIdObj = await request.$context.attributes.UsrPerformanceDetailDS_UsrParentConcert_m2nxgfl;
+                      let CurrentPerformanceId = await request.$context.Id;
+                    
+                      console.log("Performance Id after delay 2:", CurrentPerformanceId);
+                      console.log("Concert Id after delay 7:", ConcertIdObj.value);
+                      console.log("Concert Id after delay 8:", ConcertIdObj.displayValue);
 
-                      // Not getting parent concert Id
+
+                      // Call Business Process
+                      const result = await request.$context.executeRequest({
+                        type: "crt.RunBusinessProcessRequest",
+                            processName: "UsrGetPerformanceDetail",
+                            processParameters: {
+                                ConcertIdParam: ConcertIdObj.value,
+                                CurrentPerformanceIdPram: CurrentPerformanceId
+                            },
+                            resultParameterNames: [
+                                "ConcertPerformanceTotalDurationParam"
+                            ],
+                            $context: request.$context
+                      });
+                       console.log(result);
+                      if (result.success) {
+                          console.log("BPM >> " + result.resultParameterValues.ConcertPerformanceTotalDurationParam);
+                      }
   
                   }, 1000);  // Wait 1 second before checking
                   
