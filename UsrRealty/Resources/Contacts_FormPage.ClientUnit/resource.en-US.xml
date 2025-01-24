@@ -5,6 +5,7 @@
 			<Item Name="LocalizableStrings.Button_e5q0ndo_caption.Value" Value="Summarized Details" />
 			<Item Name="LocalizableStrings.Button_roy75ro_caption.Value" Value="Update Detail" />
 			<Item Name="LocalizableStrings.Button_vly461d_caption.Value" Value="Summarized Details" />
+			<Item Name="LocalizableStrings.TabContainer_bu5n7ib_caption.Value" Value="ConcertTab" />
 			<Item Name="LocalizableStrings.UpdateContactDetail_caption.Value" Value="Edit" />
 		</Items>
 	</Group>

@@ -53,6 +53,8 @@
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_sckilfg_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.RunWebService_caption.Value" Value="Web Service" />
 			<Item Name="LocalizableStrings.TabContainer_60s5ay6_caption.Value" Value="Interest Rate" />
+			<Item Name="LocalizableStrings.TabContainer_ContactTab_caption.Value" Value="Contact Tab" />
+			<Item Name="LocalizableStrings.TabContainer_mwxpt9u_caption.Value" Value="ContactTab" />
 			<Item Name="LocalizableStrings.TabContainer_zjrgydu_caption.Value" Value="New tab" />
 		</Items>
 	</Group>

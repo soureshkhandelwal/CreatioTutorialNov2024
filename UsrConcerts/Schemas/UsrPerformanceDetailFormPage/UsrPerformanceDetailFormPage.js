@@ -176,8 +176,8 @@ define("UsrPerformanceDetailFormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"
                         type: "crt.RunBusinessProcessRequest",
                             processName: "UsrGetPerformanceDetail",
                             processParameters: {
-                                ConcertIdParam: ConcertIdObj.value,
-                                CurrentPerformanceIdPram: CurrentPerformanceId
+                                CurrentConcertIdParam: ConcertIdObj.value,
+                                CurrentPerformanceIdParam: CurrentPerformanceId
                             },
                             resultParameterNames: [
                                 "ConcertPerformanceTotalDurationParam"
@@ -186,7 +186,7 @@ define("UsrPerformanceDetailFormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"
                       });
                        console.log(result);
                       if (result.success) {
-                          console.log("BPM >> " + result.resultParameterValues.ConcertPerformanceTotalDurationParam);
+                          console.log("BPM Result >> " + result.resultParameterValues.ConcertPerformanceTotalDurationParam);
                       }
   
                   }, 1000);  // Wait 1 second before checking

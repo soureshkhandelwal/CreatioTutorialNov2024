@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "05c117bc-a59d-43f1-9ea9-d43f0fd2bfd5",
+    "Name": "UsrODataService",
+    "ModifiedOnUtc": "\/Date(1737652916000)\/",
+    "ManagerName": "ServiceSchemaManager",
+    "Caption": "Testing OData Service on Local Machine",
+    "DependsOn": []
+  }
+}

@@ -8,13 +8,13 @@
       "B1": [],
       "B2": [],
       "B3": [],
-      "B6": "c84c6025-745b-907c-2ab7-3469a10a4928",
+      "B6": "f61a7e1c-24b4-4365-aa97-2fdcd53e822c",
       "B8": "8.2.0.4183",
       "FJ1": [
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
           "UId": "d272d21b-3260-465f-87a8-b7fd6863a674",
-          "A2": "ConcertIdParam",
+          "A2": "CurrentConcertIdParam",
           "A3": "586ffb9f-05d7-4ea4-892b-0d6a9ab4f2ac",
           "A4": "586ffb9f-05d7-4ea4-892b-0d6a9ab4f2ac",
           "L1": "23018567-a13c-4320-8687-fd6f9e3699bd",
@@ -38,7 +38,7 @@
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
           "UId": "f9f18be6-d6f8-45d1-afc2-60cf6a40c145",
-          "A2": "CurrentPerformanceIdPram",
+          "A2": "CurrentPerformanceIdParam",
           "A3": "586ffb9f-05d7-4ea4-892b-0d6a9ab4f2ac",
           "A4": "586ffb9f-05d7-4ea4-892b-0d6a9ab4f2ac",
           "L1": "23018567-a13c-4320-8687-fd6f9e3699bd",

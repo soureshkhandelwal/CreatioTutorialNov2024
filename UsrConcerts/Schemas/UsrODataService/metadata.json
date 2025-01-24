@@ -1,0 +1,142 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ServiceSchemaManager",
+      "UId": "05c117bc-a59d-43f1-9ea9-d43f0fd2bfd5",
+      "A2": "UsrODataService",
+      "A5": "6d0c237d-57b1-409b-9f16-ec1c0b4f0d63",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "f61a7e1c-24b4-4365-aa97-2fdcd53e822c",
+      "B8": "8.2.0.4183",
+      "IQ1": "http://localhost",
+      "IQ2": 1,
+      "IQ7": [],
+      "IQ4": [
+        {
+          "UId": "cb2042a6-82ac-4578-b856-fa76627c8773",
+          "A2": "UsrFetchConcertDetails",
+          "A3": "05c117bc-a59d-43f1-9ea9-d43f0fd2bfd5",
+          "A4": "05c117bc-a59d-43f1-9ea9-d43f0fd2bfd5",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "222d6f70-09d5-40e0-adf2-829a1886abce",
+                "A2": "UsrCookieParam",
+                "IU1": "Cookie",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 4,
+                "IU5": {
+                  "IV1": "BPMLOADER=ocfqvsp0qisyq3gfv3g0va3c; .ASPXAUTH=889EE7F581A8BBB6E754A1ACA0E2029FCDDAA64927DEB7D3B64F2F2B45797C06EC53B764E68FBCD2FDC9F8FBA196112507AACDB5671CBD1431A9A521750508B8352522644C0B192FDE0EABA36FB7F166505C460B5E9A60C0CC4B45A7E5153EAA206D9304B19865C0111BDCD556E8C61AA978D18C72FC95B983EC10E477F1937201CC5E09A667ED1E1B05D7ABB288F3D9E9D688CB3A6488C995D54BDCBE2DD72D55A3EAE92C6FB57E48FF0A94E3FFFFA5DB22892C3234CF2748335D68FA95DEE659FB7DD23F44A2A76CA9572FF4FDB71D73A83BA730504B0DBA37C00C5E373B0482BC35B469C116AE9FB7A80D81A7C135D729B459FAAB0F4BF51F5E433CBF2CC01A5A244F438970523429530C84021C59F61F1EA50290414B6EC7BBFAD4B6197B23A4DE2037AA465541B1CEBDC782A0C1D09F9AF351C01A5F9062315585228206BBE6A43CC857BF790BF898E1B181D3B5004AD5CD4A872C86291E93A3660B03D3766785F4D7FC0841E618D25D9FCA886AB58C931961F93E452AD0D9F5DFB8288014779D08737538F4336F250924520517685F4E638E1B11DF255685942FB2609EC6696AFE3B8535EEE587B27C6D87B53F4643046A32A6A1524DF9301F76471302FAF5188827C0BC45EB342A525039F2165B6012002D51B1E6943705138D710BF3C008E462193162BFC23337E2EB1A705CD80D8BF4;  BPMCSRF=eYUld4Umz8I0ATa3hldB7u;",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 1,
+            "IT1": "/D1/0/odata/UsrConcerts"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": []
+          }
+        },
+        {
+          "UId": "f793e7d4-cda0-43cf-9542-cf72d2d02382",
+          "A2": "UsrFetchConcertById",
+          "A3": "05c117bc-a59d-43f1-9ea9-d43f0fd2bfd5",
+          "A4": "05c117bc-a59d-43f1-9ea9-d43f0fd2bfd5",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "222d6f70-09d5-40e0-adf2-829a1886abce",
+                "A2": "UsrCookieParam",
+                "IU1": "Cookie",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 4,
+                "IU5": {
+                  "IV1": "BPMLOADER=ocfqvsp0qisyq3gfv3g0va3c; .ASPXAUTH=889EE7F581A8BBB6E754A1ACA0E2029FCDDAA64927DEB7D3B64F2F2B45797C06EC53B764E68FBCD2FDC9F8FBA196112507AACDB5671CBD1431A9A521750508B8352522644C0B192FDE0EABA36FB7F166505C460B5E9A60C0CC4B45A7E5153EAA206D9304B19865C0111BDCD556E8C61AA978D18C72FC95B983EC10E477F1937201CC5E09A667ED1E1B05D7ABB288F3D9E9D688CB3A6488C995D54BDCBE2DD72D55A3EAE92C6FB57E48FF0A94E3FFFFA5DB22892C3234CF2748335D68FA95DEE659FB7DD23F44A2A76CA9572FF4FDB71D73A83BA730504B0DBA37C00C5E373B0482BC35B469C116AE9FB7A80D81A7C135D729B459FAAB0F4BF51F5E433CBF2CC01A5A244F438970523429530C84021C59F61F1EA50290414B6EC7BBFAD4B6197B23A4DE2037AA465541B1CEBDC782A0C1D09F9AF351C01A5F9062315585228206BBE6A43CC857BF790BF898E1B181D3B5004AD5CD4A872C86291E93A3660B03D3766785F4D7FC0841E618D25D9FCA886AB58C931961F93E452AD0D9F5DFB8288014779D08737538F4336F250924520517685F4E638E1B11DF255685942FB2609EC6696AFE3B8535EEE587B27C6D87B53F4643046A32A6A1524DF9301F76471302FAF5188827C0BC45EB342A525039F2165B6012002D51B1E6943705138D710BF3C008E462193162BFC23337E2EB1A705CD80D8BF4;  BPMCSRF=eYUld4Umz8I0ATa3hldB7u;",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "738c9e89-5f9a-4f42-a5a7-51c766f9d295",
+                "A2": "UsrConcertIdParam",
+                "IU1": "concertId",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 2,
+                "IU5": {
+                  "IV1": "368eaf71-24e9-48dc-95b4-158581b322b0",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 1,
+            "IT1": "/D1/0/odata/UsrConcerts({concertId})"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": []
+          }
+        },
+        {
+          "UId": "5edf2ba2-6e3d-4900-a9e5-2057afc2662c",
+          "A2": "UsrLogin",
+          "A3": "05c117bc-a59d-43f1-9ea9-d43f0fd2bfd5",
+          "A4": "05c117bc-a59d-43f1-9ea9-d43f0fd2bfd5",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "072a03d2-d261-4908-b63e-98a376f1997c",
+                "A2": "UsrUserNameParam",
+                "IU1": "$.UserName",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "Supervisor",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "1ff023e6-688a-47fc-9259-3589d951ee15",
+                "A2": "UsrUserPasswordParam",
+                "IU1": "$.UserPassword",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "Supervisor",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 2,
+            "IT1": "/D1/ServiceModel/AuthService.svc/Login"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": []
+          }
+        }
+      ]
+    }
+  }
+}

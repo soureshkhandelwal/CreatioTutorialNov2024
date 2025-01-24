@@ -215,16 +215,14 @@ define("UsrInterestDetailModalPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
                   let Tenure = await request.$context.UsrInterestDS_UsrTenure_8bvidan || 0;
 
                   console.log("Interest: ", IntType);
-                  
+                  let SI_Val_Arr = ["SI", "SI (Simple Int)"];
                   let totalInt = 0;
                   // Calculate Interest
-                  if(IntType.secondaryDisplayValue == "SI" || IntType.secondaryDisplayValue == "SI (Simple Int)") {
+                  if( SI_Val_Arr.includes(IntType.displayValue) || SI_Val_Arr.includes(IntType.secondaryDisplayValue) ) {
                     totalInt = (PrincAmt * Rate * Tenure) / 100;
                   } else {
-                    const compoundAmount = PrincAmt * Math.pow((1 + Rate / 100), Tenure);
-    
+                    let compoundAmount = PrincAmt * Math.pow((1 + Rate / 100), Tenure);
                     totalInt = compoundAmount - PrincAmt;
-
                   }
                   request.$context.UsrInterestDS_UsrInterestAmount_s2j9bbh= totalInt;
                   request.$context.UsrInterestDS_UsrTotalAmount_chheneh= PrincAmt + totalInt;
@@ -235,6 +233,45 @@ define("UsrInterestDetailModalPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
           }
         ]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
-		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
+		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/,
+        businessRules: {
+            UsrInterestDS_UsrInterestAmount_s2j9bbh: {
+                "VisibilityRule": {
+                    ruleType: "BindingMode",
+                    property: "visible",
+                    logical: Terrasoft.LogicalOperatorType.AND,
+                    conditions: [
+                        {
+                            leftExpression: {
+                                type: Terrasoft.ExpressionType.ATTRIBUTE,
+                                attribute: "UsrInterestDS_UsrInterestType_lov3y5d"
+                            },
+                            comparisonType: Terrasoft.ComparisonType.IS_NOT_NULL
+                        },
+                        {
+                            leftExpression: {
+                                type: Terrasoft.ExpressionType.ATTRIBUTE,
+                                attribute: "UsrInterestDS_UsrPrincipalAmt_ipon3b0"
+                            },
+                            comparisonType: Terrasoft.ComparisonType.IS_NOT_NULL
+                        },
+                        {
+                            leftExpression: {
+                                type: Terrasoft.ExpressionType.ATTRIBUTE,
+                                attribute: "UsrInterestDS_UsrRateInPercent_56bit4t"
+                            },
+                            comparisonType: Terrasoft.ComparisonType.IS_NOT_NULL
+                        },
+                        {
+                            leftExpression: {
+                                type: Terrasoft.ExpressionType.ATTRIBUTE,
+                                attribute: "UsrInterestDS_UsrTenure_8bvidan"
+                            },
+                            comparisonType: Terrasoft.ComparisonType.IS_NOT_NULL
+                        }
+                    ]
+                }
+            }
+        }
 	};
 });

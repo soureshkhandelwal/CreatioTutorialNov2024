@@ -31,12 +31,12 @@
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
-			<Item Name="Parameters.ConcertIdParam.Caption" Value="ConcertId" />
-			<Item Name="Parameters.ConcertIdParam.Sys_Description" Value="Active Concert Id" />
-			<Item Name="Parameters.ConcertPerformanceTotalDurationParam.Caption" Value="ConcertPerformanceTotalDuration" />
+			<Item Name="Parameters.ConcertPerformanceTotalDurationParam.Caption" Value="Concert Performances Total Duration" />
 			<Item Name="Parameters.ConcertPerformanceTotalDurationParam.Sys_Description" Value="Total Duration of Performance records" />
-			<Item Name="Parameters.CurrentPerformanceIdPram.Caption" Value="Current Performance Id" />
-			<Item Name="Parameters.CurrentPerformanceIdPram.Sys_Description" Value="Newly Created or Existing Performance Detail Record" />
+			<Item Name="Parameters.CurrentConcertIdParam.Caption" Value="Concert Id" />
+			<Item Name="Parameters.CurrentConcertIdParam.Sys_Description" Value="Active Concert Id" />
+			<Item Name="Parameters.CurrentPerformanceIdParam.Caption" Value="Current Performance Id" />
+			<Item Name="Parameters.CurrentPerformanceIdParam.Sys_Description" Value="Newly Created or Existing Performance Detail Record" />
 		</Items>
 	</Group>
 </Resources>

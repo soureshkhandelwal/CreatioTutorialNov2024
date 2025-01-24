@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Testing OData Service on Local Machine" />
+			<Item Name="ServiceMethods.UsrFetchConcertById.Caption" Value="Concert Detail By ID" />
+			<Item Name="ServiceMethods.UsrFetchConcertById.Request.Parameters.UsrConcertIdParam.Caption" Value="Concert Id" />
+			<Item Name="ServiceMethods.UsrFetchConcertById.Request.Parameters.UsrCookieParam.Caption" Value="Cookie" />
+			<Item Name="ServiceMethods.UsrFetchConcertDetails.Caption" Value="Concert Detail" />
+			<Item Name="ServiceMethods.UsrFetchConcertDetails.Request.Parameters.UsrCookieParam.Caption" Value="Cookie" />
+			<Item Name="ServiceMethods.UsrLogin.Caption" Value="Creatio Login" />
+			<Item Name="ServiceMethods.UsrLogin.Request.Parameters.UsrUserNameParam.Caption" Value="Login Username" />
+			<Item Name="ServiceMethods.UsrLogin.Request.Parameters.UsrUserPasswordParam.Caption" Value="Login Password" />
+		</Items>
+	</Group>
+</Resources>

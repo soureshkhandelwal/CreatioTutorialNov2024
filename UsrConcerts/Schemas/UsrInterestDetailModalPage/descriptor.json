@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "d3c76444-0d0b-4e39-870f-b170998a5bb0",
     "Name": "UsrInterestDetailModalPage",
-    "ModifiedOnUtc": "\/Date(1737551351000)\/",
+    "ModifiedOnUtc": "\/Date(1737568956000)\/",
     "Parent": {
       "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
       "Name": "BaseMiniPageTemplate"

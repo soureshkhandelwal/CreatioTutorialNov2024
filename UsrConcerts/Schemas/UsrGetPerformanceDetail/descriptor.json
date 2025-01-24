@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "586ffb9f-05d7-4ea4-892b-0d6a9ab4f2ac",
     "Name": "UsrGetPerformanceDetail",
-    "ModifiedOnUtc": "\/Date(1737172859000)\/",
+    "ModifiedOnUtc": "\/Date(1737715073000)\/",
     "ManagerName": "ProcessSchemaManager",
     "Caption": "Get Performance Total Duration",
     "DependsOn": []

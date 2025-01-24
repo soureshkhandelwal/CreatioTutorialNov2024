@@ -1298,6 +1298,165 @@ define("UsrConcerts_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHE
 				"parentName": "GridInterestDetail_ListView",
 				"propertyName": "bulkActions",
 				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "TabContainer_ContactTab",
+				"values": {
+					"type": "crt.TabContainer",
+					"items": [],
+					"caption": "#ResourceString(TabContainer_ContactTab_caption)#",
+					"iconPosition": "only-text",
+					"visible": true
+				},
+				"parentName": "Tabs",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_8krxufr",
+				"values": {
+					"type": "crt.GridContainer",
+					"items": [],
+					"rows": "minmax(32px, max-content)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					}
+				},
+				"parentName": "TabContainer_ContactTab",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_ContactListView",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 2,
+						"rowSpan": 8
+					},
+					"type": "crt.DataGrid",
+					"features": {
+						"rows": {
+							"selection": {
+								"enable": true,
+								"multiple": true
+							}
+						},
+						"editable": {
+							"enable": false,
+							"itemsCreation": false,
+							"floatingEditPanel": false
+						}
+					},
+					"items": "$DataGrid_rx7vjpq",
+					"activeRow": "$DataGrid_rx7vjpq_ActiveRow",
+					"selectionState": "$DataGrid_rx7vjpq_SelectionState",
+					"_selectionOptions": {
+						"attribute": "DataGrid_rx7vjpq_SelectionState"
+					},
+					"visible": true,
+					"fitContent": true,
+					"primaryColumnName": "DataGrid_rx7vjpqDS_Id",
+					"columns": [
+						{
+							"id": "c533228c-a22c-b70b-e4c4-f623a134f0c2",
+							"code": "DataGrid_rx7vjpqDS_Name",
+							"caption": "#ResourceString(DataGrid_rx7vjpqDS_Name)#",
+							"dataValueType": 28
+						}
+					],
+					"placeholder": false,
+					"bulkActions": []
+				},
+				"parentName": "GridContainer_8krxufr",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_rx7vjpq_AddTagsBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Add tag",
+					"icon": "tag-icon",
+					"clicked": {
+						"request": "crt.AddTagsInRecordsRequest",
+						"params": {
+							"dataSourceName": "DataGrid_rx7vjpqDS",
+							"filters": "$DataGrid_rx7vjpq | crt.ToCollectionFilters : 'DataGrid_rx7vjpq' : $DataGrid_rx7vjpq_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_rx7vjpq_SelectionState"
+						}
+					},
+					"items": []
+				},
+				"parentName": "DataGrid_ContactListView",
+				"propertyName": "bulkActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_rx7vjpq_RemoveTagsBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Remove tag",
+					"icon": "delete-button-icon",
+					"clicked": {
+						"request": "crt.RemoveTagsInRecordsRequest",
+						"params": {
+							"dataSourceName": "DataGrid_rx7vjpqDS",
+							"filters": "$DataGrid_rx7vjpq | crt.ToCollectionFilters : 'DataGrid_rx7vjpq' : $DataGrid_rx7vjpq_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_rx7vjpq_SelectionState"
+						}
+					}
+				},
+				"parentName": "DataGrid_rx7vjpq_AddTagsBulkAction",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_rx7vjpq_ExportToExcelBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Export to Excel",
+					"icon": "export-button-icon",
+					"clicked": {
+						"request": "crt.ExportDataGridToExcelRequest",
+						"params": {
+							"viewName": "DataGrid_ContactListView",
+							"filters": "$DataGrid_rx7vjpq | crt.ToCollectionFilters : 'DataGrid_rx7vjpq' : $DataGrid_rx7vjpq_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_rx7vjpq_SelectionState"
+						}
+					}
+				},
+				"parentName": "DataGrid_ContactListView",
+				"propertyName": "bulkActions",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_rx7vjpq_DeleteBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Delete",
+					"icon": "delete-button-icon",
+					"clicked": {
+						"request": "crt.DeleteRecordsRequest",
+						"params": {
+							"dataSourceName": "DataGrid_rx7vjpqDS",
+							"filters": "$DataGrid_rx7vjpq | crt.ToCollectionFilters : 'DataGrid_rx7vjpq' : $DataGrid_rx7vjpq_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_rx7vjpq_SelectionState"
+						}
+					}
+				},
+				"parentName": "DataGrid_ContactListView",
+				"propertyName": "bulkActions",
+				"index": 2
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -1525,6 +1684,26 @@ define("UsrConcerts_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHE
 								}
 							}
 						}
+					},
+					"DataGrid_rx7vjpq": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "DataGrid_rx7vjpqDS"
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"DataGrid_rx7vjpqDS_Name": {
+									"modelConfig": {
+										"path": "DataGrid_rx7vjpqDS.Name"
+									}
+								},
+								"DataGrid_rx7vjpqDS_Id": {
+									"modelConfig": {
+										"path": "DataGrid_rx7vjpqDS.Id"
+									}
+								}
+							}
+						}
 					}
 				}
 			},
@@ -1563,6 +1742,12 @@ define("UsrConcerts_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHE
 							{
 								"attributePath": "UsrParentConcert",
 								"relationPath": "PDS.Id"
+							}
+						],
+						"DataGrid_rx7vjpqDS": [
+							{
+								"attributePath": "Id",
+								"relationPath": "PDS.UsrOwner"
 							}
 						]
 					}
@@ -1631,6 +1816,18 @@ define("UsrConcerts_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHE
 							"attributes": {
 								"UsrInterestAmount": {
 									"path": "UsrInterestAmount"
+								}
+							}
+						}
+					},
+					"DataGrid_rx7vjpqDS": {
+						"type": "crt.EntityDataSource",
+						"scope": "viewElement",
+						"config": {
+							"entitySchemaName": "Contact",
+							"attributes": {
+								"Name": {
+									"path": "Name"
 								}
 							}
 						}
