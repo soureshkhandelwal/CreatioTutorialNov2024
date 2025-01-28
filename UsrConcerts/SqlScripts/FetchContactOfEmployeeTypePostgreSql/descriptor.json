@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "2f5ad83b-dcbc-e623-d333-9be938e1e3ca",
+    "Name": "FetchContactOfEmployeeTypePostgreSql",
+    "DBEngineType": 2,
+    "InstallType": 2,
+    "ModifiedOnUtc": "\/Date(1737742419000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

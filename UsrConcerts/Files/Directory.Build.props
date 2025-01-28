@@ -3,6 +3,7 @@
 		<Compile Include="$(PkgPath)/UsrConcerts/Schemas/UsrConcerts/UsrConcerts.cs" Condition="Exists('$(PkgPath)/UsrConcerts/Schemas/UsrConcerts/UsrConcerts.cs')" />
 		<Compile Include="$(PkgPath)/UsrConcerts/Schemas/UsrConcertTypeLookup/UsrConcertTypeLookup.cs" Condition="Exists('$(PkgPath)/UsrConcerts/Schemas/UsrConcertTypeLookup/UsrConcertTypeLookup.cs')" />
 		<Compile Include="$(PkgPath)/UsrConcerts/Schemas/UsrConcertWidgetDetail/UsrConcertWidgetDetail.cs" Condition="Exists('$(PkgPath)/UsrConcerts/Schemas/UsrConcertWidgetDetail/UsrConcertWidgetDetail.cs')" />
+		<Compile Include="$(PkgPath)/UsrConcerts/Schemas/UsrDummyObject/UsrDummyObject.cs" Condition="Exists('$(PkgPath)/UsrConcerts/Schemas/UsrDummyObject/UsrDummyObject.cs')" />
 		<Compile Include="$(PkgPath)/UsrConcerts/Schemas/UsrInterest/UsrInterest.cs" Condition="Exists('$(PkgPath)/UsrConcerts/Schemas/UsrInterest/UsrInterest.cs')" />
 		<Compile Include="$(PkgPath)/UsrConcerts/Schemas/UsrInterestTypeLookup/UsrInterestTypeLookup.cs" Condition="Exists('$(PkgPath)/UsrConcerts/Schemas/UsrInterestTypeLookup/UsrInterestTypeLookup.cs')" />
 		<Compile Include="$(PkgPath)/UsrConcerts/Schemas/UsrPerformanceDetail/UsrPerformanceDetail.cs" Condition="Exists('$(PkgPath)/UsrConcerts/Schemas/UsrPerformanceDetail/UsrPerformanceDetail.cs')" />

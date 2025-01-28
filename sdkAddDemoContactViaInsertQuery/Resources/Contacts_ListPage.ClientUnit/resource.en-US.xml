@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Resources Culture="en-US">
-	<Group Type="String">
-		<Items>
-			<Item Name="LocalizableStrings.Button_njq69i5_caption.Value" Value="Add demo contact" />
-			<Item Name="LocalizableStrings.DemoContact_caption.Value" Value="Add Demo Contact" />
-		</Items>
-	</Group>
-</Resources>

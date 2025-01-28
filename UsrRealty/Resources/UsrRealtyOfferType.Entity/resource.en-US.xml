@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Resources Culture="en-US">
-	<Group Type="String">
-		<Items>
-			<Item Name="Caption" Value="Realty Offer Type Lookup" />
-			<Item Name="Columns.UsrCommissionPercent.Caption" Value="Commission Percent (0 to 100)" />
-		</Items>
-	</Group>
-</Resources>

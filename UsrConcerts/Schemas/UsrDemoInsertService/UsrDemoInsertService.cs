@@ -21,14 +21,14 @@
 
         public string InsertDemo(string name, string timestamp, string remarks){
             // Generate a new Guid for the Id
-            Guid newId = Guid.NewGuid();
+            // Guid newId = Guid.NewGuid();
             
             var ins = new Insert(UserConnection)
-                            .Into("demo")
-                            .Set("Id", Column.Parameter(newId)) // Insert the generated Id
-                            .Set("Name", Column.Parameter(name))
-                            .Set("EmpId", Column.Parameter(timestamp))
-                            .Set("Remarks", Column.Parameter(remarks));
+                            .Into("UsrDummyObject")
+                            // .Set("Id", Column.Parameter(newId)) // Insert the generated Id
+                            .Set("UsrName", Column.Parameter(name))
+                            .Set("UsrEmpId", Column.Parameter(timestamp))
+                            .Set("UsrRemarks", Column.Parameter(remarks));
           
             var affectedRows = ins.Execute();
             var result = $"Inserted new contact with name '{name}'. {affectedRows} rows affected";

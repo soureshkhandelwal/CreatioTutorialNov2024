@@ -1,0 +1,9 @@
+{
+  "Code": "CrtCustomer360App",
+  "Packages": [
+    {
+      "UId": "08d2fa04-13ad-ac6e-24e1-c6c0322fd976",
+      "Name": "btrns_sk_ContactEntity"
+    }
+  ]
+}

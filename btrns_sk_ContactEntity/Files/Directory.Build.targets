@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/btrns_sk_ContactEntity/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/btrns_sk_ContactEntity/Data/**" />
+		<Compile Remove="$(PkgPath)/btrns_sk_ContactEntity/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/btrns_sk_ContactEntity/Schemas\**" />
+		<Compile Remove="$(PkgPath)/btrns_sk_ContactEntity/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/btrns_sk_ContactEntity/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/btrns_sk_ContactEntity/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/btrns_sk_ContactEntity/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/btrns_sk_ContactEntity/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/btrns_sk_ContactEntity/Resources/**" />
+		<None Remove="$(PkgPath)/btrns_sk_ContactEntity/Assemblies/**" />
+		<None Remove="$(PkgPath)/btrns_sk_ContactEntity/Data/**" />
+		<None Remove="$(PkgPath)/btrns_sk_ContactEntity/SqlScripts/**" />
+		<None Remove="$(PkgPath)/btrns_sk_ContactEntity/Schemas/**" />
+		<None Remove="$(PkgPath)/btrns_sk_ContactEntity/Resources/**" />
+  </ItemGroup>
+</Project>

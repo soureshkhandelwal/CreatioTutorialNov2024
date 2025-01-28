@@ -1,0 +1,25 @@
+﻿{
+  "Descriptor": {
+    "UId": "08d2fa04-13ad-ac6e-24e1-c6c0322fd976",
+    "Name": "btrns_sk_ContactEntity",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1737916910000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/btrns_sk_ContactEntity.csproj",
+    "Description": "Contact Entity Changes",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      },
+      {
+        "UId": "2ecba2bd-b810-47a5-a1b1-08c888529d6c",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCustomer360App",
+        "Type": 1
+      }
+    ]
+  }
+}
